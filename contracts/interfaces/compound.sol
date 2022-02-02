@@ -30,7 +30,3 @@ interface CErc20 {
         address collateral
     ) external returns (uint256);
 }
-
-interface PriceFeed {
-    function getUnderlyingPrice(address cToken) external view returns (uint256);
-}
